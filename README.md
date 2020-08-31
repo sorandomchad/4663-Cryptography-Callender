@@ -2,4 +2,4 @@
 #### Repo: 4663 Cryptography
 #### Email: chaddon1999@gmail.com
 #### Image:
-![profile photo|1200x1600, 50%](IMG-20200623-WA0009.jpg)
+<img src="IMG-20200623-WA0009.jpg" width="600" alt="profile photo">
