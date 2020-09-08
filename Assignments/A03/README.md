@@ -14,4 +14,4 @@ This assignment requires the use of a frequency analysis to decrypt the text fil
 |   2   | [ciphertext_1.txt](./ciphertext_1.txt) | First encrypted text file. |
 |   3   | [ciphertext_2.txt](./ciphertext_2.txt) | Second encrypted text file. |
 |   4   | [decrypted_1.txt](./decrypted_1.txt)   | Decrypted `ciphertext_1.txt`. |
-|   5   | [input_even](./input_even) | Test file to see if any hexograms were even.               |
+|   5   | [decrypted_2.txt](./decryptrd_2.txt) | Decrypted `ciphertext_2.txt`. |
