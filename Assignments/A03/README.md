@@ -15,3 +15,4 @@ This assignment requires the use of a frequency analysis to decrypt the text fil
 |   3   | [ciphertext_2.txt](./ciphertext_2.txt) | Second encrypted text file. |
 |   4   | [decrypted_1.txt](./decrypted_1.txt)   | Decrypted `ciphertext_1.txt`. |
 |   5   | [decrypted_2.txt](./decryptrd_2.txt) | Decrypted `ciphertext_2.txt`. |
+|   6   | [A03_written_work](./A03_written_work.pdf) | This PDF shows the process of "guessing" the letters in the ciphertext. |
