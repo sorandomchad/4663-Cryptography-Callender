@@ -18,3 +18,15 @@ This assignment entails implementing the ADFGX cipher, creating `encrypt` and `d
 |   4   | [polybius.py](./polybius.py)   | This file takes the first keyword and builds the polybius "matrix" and assigns each plaintext letter to its corresponding pair of letters from A, D, F, G, X. |
 
 ### Instructions
+
+Invoke the progam from the command line using keyword arguments like this
+```
+                        1                   2           3                4
+python adfgx.py input=input_file_name key1=keyword1 key2=keyword2 op=[encrypt,decrypt] 
+```
+where
+
+1. The file to be encrypted or decrypted
+2. keyword to build ADFGX matrix (polybius square)
+3. keyword used with transposition matrix and fractionating the message
+4. whether to "encrypt" or "decrypt" the message.
