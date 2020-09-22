@@ -25,8 +25,8 @@ class Adfgx(pb.AdfgxLookup):
       message = message.lower()
 
       lookup = self.build_polybius_lookup(self.key)
-      #pp.pprint(boy)
-      print("Message:", message)
+
+      print("\nRetrieving message from", input_file + ".txt...")
       print("Encrypting...")
 
       for l in message:
@@ -67,8 +67,6 @@ class Adfgx(pb.AdfgxLookup):
       # algorithm
       temp_matrix = sorted(matrix.items())
 
-      #print("")
-
       sorted_matrix = {}
 
       # Rebuild the sorted matrix into a dictionary again
@@ -84,6 +82,8 @@ class Adfgx(pb.AdfgxLookup):
       with open(output_file, 'w') as f:
         f.write(frac.print_message(matrix, self.key2))
 
+      print("Encypted message written to", output_file + ".txt!")
+      
       return None
       
     
@@ -102,7 +102,7 @@ class Adfgx(pb.AdfgxLookup):
 
       ciphertext = ciphertext.upper()
       
-      print("Message:", ciphertext)
+      print("\nRetrieving message from", input_file + ".txt...")
       print("Decrypting...")
 
       for l in ciphertext:
@@ -152,6 +152,8 @@ class Adfgx(pb.AdfgxLookup):
           
       with open(output_file, 'w') as f:
         f.write(plaintext)
+        
+      print("Decypted message written to", output_file + ".txt!")
 
       return None
 
